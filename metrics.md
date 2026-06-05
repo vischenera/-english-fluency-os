@@ -24,7 +24,18 @@ Count silent pauses longer than 2 seconds in a 60-second answer.
 | 2–3 | 7 |
 | 0–1 | 9–10 |
 
-## 3. Grammar Score
+## 3. Longest Fluent Run
+
+Measure the longest stretch of speech (in seconds) with no pause longer than 2 seconds. This single number captures fluency better than a self-score — aim to grow it week over week.
+
+| Longest run | Reading |
+|---:|---|
+| under 5s | starts break quickly |
+| 5–10s | full sentences forming |
+| 10–20s | connected speech |
+| 20s+ | sustained, conversational |
+
+## 4. Grammar Score
 
 Track only high-frequency errors that affect clarity.
 
@@ -35,7 +46,7 @@ Track only high-frequency errors that affect clarity.
 - verb patterns,
 - Malayalam-transfer sentence order.
 
-## 4. Pronunciation Score
+## 5. Pronunciation Score
 
 Rate clarity, not accent.
 
@@ -46,9 +57,9 @@ Rate clarity, not accent.
 | r | Is r clear without over-rolling? |
 | stress | Is the main syllable strong in important words? |
 
-## 5. Retrieval Speed
+## 6. Retrieval Speed
 
-Pick 10 cards. For each card, start a spoken sentence within 3 seconds.
+Pick 10 cards (frameworks, chunks, or expressions). For each, start a spoken sentence within 3 seconds.
 
 | Instant Starts | Retrieval Score |
 |---:|---:|
@@ -63,10 +74,11 @@ Pick 10 cards. For each card, start a spoken sentence within 3 seconds.
 - [ ] I completed at least 5 short sessions.
 - [ ] I recorded one 60-second answer.
 - [ ] I reduced at least one repeated mistake.
-- [ ] I used 10+ frameworks in real or simulated speech.
+- [ ] I used 10+ frameworks/chunks in real or simulated speech.
 - [ ] I practiced one pronunciation target.
+- [ ] My longest fluent run held steady or grew.
 - [ ] I can name one visible improvement.
 
-## ROI Rule
+## The Only ROI Rule
 
-A card is successful only if it appears in real speech. Passive recognition does not count.
+A card is successful only when it appears in your real speech. Passive recognition does not count — that is why every card graduates through the spaced-repetition ladder, not by being read once.

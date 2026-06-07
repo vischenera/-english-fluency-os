@@ -46,16 +46,20 @@ Track only high-frequency errors that affect clarity.
 - verb patterns,
 - Malayalam-transfer sentence order.
 
-## 5. Pronunciation Score
+## 5. Accent Score (General American)
 
-Rate clarity, not accent.
+Rate how minimally-marked you sound. Prosody first — it carries the most weight.
 
 | Area | Question |
 |---|---|
-| th | Can listeners distinguish think/sink and this/dis? |
-| v/w | Can listeners distinguish vet/wet and very/wary? |
-| r | Is r clear without over-rolling? |
-| stress | Is the main syllable strong in important words? |
+| rhythm | Strong beats on content words, small words reduced to "uh"? |
+| stress | Is the main syllable strong, and the right word stressed in the sentence? |
+| t/d | Alveolar (tip on the ridge), not retroflex/curled-back? |
+| v/w & th | Distinct v/w; th not turning into t/d/s? |
+| r & vowels | Rhotic r (car, work) without rolling; diphthongs glided, not flat? |
+| blending | Words linked and smooth (flap-T, gonna/wanna), not word-by-word? |
+
+Quick self-check: record one sentence, play the same words on a US text-to-speech, and find one gap. Fewer gaps over time = less-marked accent.
 
 ## 6. Retrieval Speed
 

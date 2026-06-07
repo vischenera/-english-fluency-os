@@ -4,6 +4,8 @@ A Pareto-optimized speaking system for a Malayalam-speaking learner who already 
 
 This is not a traditional English course. It treats fluency as a **retrieval-speed problem**: you already know many words and rules, but conversation fails when useful sentence patterns do not appear fast enough. So the system stores *speakable units* — frames, chunks, and ready phrases — and drills them until they come out instantly.
 
+It also targets a **minimally-marked General American accent** — the point where listeners stop noticing the accent — using ADHD-friendly micro-drills, not long shadowing sessions.
+
 ## Design Principles
 
 - **Smallest effective curriculum:** a tight, finishable core you can cycle several times, not a giant deck you abandon halfway.
@@ -13,7 +15,8 @@ This is not a traditional English course. It treats fluency as a **retrieval-spe
 - **Spaced repetition:** re-meet cards on a schedule until they're automatic.
 - **Visible progress:** daily scores, weekly recordings, and stage outcomes.
 - **ADHD-friendly:** short loops, no long lectures, no giant lists in one session.
-- **International clarity:** clear pronunciation, not native accent imitation.
+- **Minimally-marked accent:** General American as the model; rhythm first, then the few sounds that most flag an accent.
+- **Audio-light, ADHD-first accent work:** 20–40 second micro-games and imitation of content you already enjoy — never long shadowing.
 
 ## Repository Map
 
@@ -23,7 +26,7 @@ This is not a traditional English course. It treats fluency as a **retrieval-spe
 - `curriculum/vocabulary/strategic_vocabulary.md` — ~78 high-frequency chunks & collocations.
 - `curriculum/expressions/expression_library.md` — ~80 ready-to-speak expressions, including time-buying "bridges".
 - `curriculum/corrections/common_corrections.md` — 90 Malayalam/Indian-English transfer corrections, each with the real rule.
-- `curriculum/pronunciation/high_roi_pronunciation.md` — th, v/w, r, and word-stress drills.
+- `curriculum/accent/` — General American accent track: `00_overview.md`, `01_prosody.md` (rhythm/stress), `02_segmental_tells.md` (the key sounds), `03_connected_speech.md` (blending), and `micro_imitation_protocol.md` (the ADHD 5-mode menu).
 - `curriculum/islands/conversation_islands.md` — 6 reusable 60-second personal monologues.
 - `daily/10_minute_protocol.md` — exact daily routine.
 - `daily/prompt_bank.md` — 40 speaking prompts for the daily loop.
@@ -37,7 +40,7 @@ This is not a traditional English course. It treats fluency as a **retrieval-spe
 2. **3 min — Framework retrieval:** use 3 frameworks in new sentences.
 3. **2 min — Chunk + correction:** use 2 chunks; fix one recurring mistake aloud.
 4. **2 min — Prompt activation:** answer one prompt from the prompt bank.
-5. **1 min — Pronunciation or island:** one sound drill, or retell one island.
+5. **1 min — Accent micro-game or island:** one mode from the accent menu, or retell one island.
 6. **1 min — Score:** mark retrieval speed, hesitation, and confidence.
 
 ## Success Definition
@@ -49,14 +52,14 @@ By completing the core system, the learner should be able to:
 - participate in professional discussions,
 - reduce Malayalam-transfer grammar mistakes,
 - speak with fewer and shorter pauses,
-- sound clear enough for international communication.
+- sound minimally-marked in General American — clear, smooth, and hard to place.
 
 ## What This System Removes
 
 - long grammar chapters,
 - rare vocabulary,
 - passive listening marathons,
-- accent perfection,
+- long shadowing sessions and assigned audio,
 - memorizing isolated word lists,
 - exercises that do not transfer to speaking.
 

@@ -10,10 +10,10 @@ Use a timer. Stop at 10 minutes even if you feel motivated. Consistency beats in
 | 2–4 | Framework retrieval | Use 3 framework cards in new, real sentences. |
 | 5–6 | Chunk + correction | Use 2 chunks aloud; fix 1 correction pattern. |
 | 7–8 | Prompt activation | Answer 1 prompt from the prompt bank using today's cards. |
-| 9 | Pronunciation OR island | One minimal drill, or retell one conversation island. |
+| 9 | Accent OR island | Run one mode from the accent menu, or retell one conversation island. |
 | 10 | Score | Mark retrieval, hesitation, confidence (and on review days, longest fluent run). |
 
-Rotate minute 9: pronunciation on most days, an island retell ~twice a week.
+Rotate minute 9: pick one accent menu mode (see `curriculum/accent/micro_imitation_protocol.md`) most days; retell an island ~twice a week. Pick by mood — never force long audio.
 
 ## Daily Rules
 

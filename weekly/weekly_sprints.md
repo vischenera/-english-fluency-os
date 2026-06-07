@@ -8,7 +8,7 @@ Keep it small so cards actually graduate through the spaced-repetition ladder:
 - 8 chunks,
 - 8 expressions,
 - 5 corrections,
-- 1–2 pronunciation targets,
+- 1–2 accent targets (prosody first, then a segmental tell),
 - keep 1 conversation island warm.
 
 Do not add new cards while Box 1 (daily review) is full.

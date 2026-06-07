@@ -7,6 +7,7 @@ All roadmaps assume **10 minutes per day**. If you miss a day, do not compensate
 - Days 1–5: learn and retrieve new cards (within the weekly budget).
 - Day 6: mixed speaking practice + retell one conversation island.
 - Day 7: record 60 seconds and score (including longest fluent run).
+- Every day, minute 9: one accent menu mode — start with prosody (rhythm) from week 1, since it carries the most accent weight.
 
 ## 8-Week Sprint — Minimum Effective Fluency
 
@@ -18,7 +19,7 @@ All roadmaps assume **10 minutes per day**. If you miss a day, do not compensate
 | 4 | Clarifying, asking & bridges | 2 frameworks, 4 expressions, 1 correction | Can ask for context, repeat, confirm, and recover without freezing. |
 | 5 | Story & experience + islands | 3 frameworks, 2 chunks, build 2 islands | Can describe past events with fewer tense errors. |
 | 6 | Agreement / disagreement | 2 frameworks, 4 expressions, 1 correction | Can participate in discussions politely. |
-| 7 | Pronunciation clarity | 2 frameworks, 1 sound drill, 1 stress drill | Better clarity on th, v/w, r, and stress. |
+| 7 | Accent: rhythm & key sounds | 2 frameworks, prosody cards + 2 segmental tells | Stronger GenAm rhythm; the top sounds less marked. |
 | 8 | Integration | mixed review + island retells | Can speak for 2 minutes on common topics with a measurably longer fluent run. |
 
 ## 12-Week Build — Professional Conversation Readiness

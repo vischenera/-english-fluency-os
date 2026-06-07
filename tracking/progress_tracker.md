@@ -20,7 +20,7 @@ Copy this table for each week.
 - Best chunk:
 - Best expression:
 - Most repeated mistake:
-- Pronunciation target:
+- Accent focus (prosody/sound):
 - Island retold:
 - One visible improvement:
 - Next week focus:

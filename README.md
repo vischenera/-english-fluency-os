@@ -33,6 +33,7 @@ It also targets a **minimally-marked General American accent** — the point whe
 - `weekly/weekly_sprints.md` — weekly targets and review rhythm.
 - `reviews/review_protocol.md` — spaced repetition (Leitner), recording loop, and AI feedback loop.
 - `tracking/progress_tracker.md` — printable / copyable tracker.
+- `print/` — the printable A4 workbook (`English-Fluency-OS-A4.pdf`) and the script that builds it.
 
 ## The 10-Minute Daily Loop
 

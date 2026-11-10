@@ -19,7 +19,7 @@ How to hear a model (no files needed): search the phrase on **YouGlish** (US) or
 **Micro-drill (20s):** Say the written form once, then the blended form 3× until it feels lazy and smooth.
 
 ## CS03. Flap T (the signature GenAm sound)
-**What it is:** A T or D between two vowels turns into a quick D-like tap of the tongue — light and fast, not a full "t."
+**What it is:** A T or D between two vowels turns into a quick D-like tap of the tongue — light and fast, not a full "t." It only happens when the next vowel is unstressed (after R too: party, forty); before a stressed vowel the T stays crisp — hotel, attack, photography.
 **Written → Real:** water  →  wadder
 **More:** better → bedder · got it → goddit · a lot of → a lodda
 **Micro-drill (20s):** Say the written form once, then the blended form 3× until it feels lazy and smooth.
@@ -48,8 +48,8 @@ How to hear a model (no files needed): search the phrase on **YouGlish** (US) or
 **More:** for a while → fer a while · bread and butter → bread-n butter · I want to → I wanna · I can go → I kn go · your turn → yer turn
 **Micro-drill (20s):** Say the written form once, then the blended form 3× until it feels lazy and smooth.
 
-## CS08. H-dropping in weak pronouns
-**What it is:** In unstressed him/her/them after a verb, the H disappears and the pronoun links onto the word before it.
+## CS08. Weak pronouns (h-dropping and 'em)
+**What it is:** In unstressed him/her after a verb, the H disappears and the pronoun links onto the word before it; "them" shrinks to 'em the same way.
 **Written → Real:** tell him  →  tell'im
 **More:** ask her → ask'er · give them → give'em
 **Micro-drill (20s):** Say the written form once, then the blended form 3× until it feels lazy and smooth.

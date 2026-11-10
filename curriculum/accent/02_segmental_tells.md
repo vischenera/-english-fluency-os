@@ -5,11 +5,11 @@ You don't need to fix every sound — listeners place an accent from a handful o
 How to hear a model (no files needed): search the word on **YouGlish** (set accent to US) for real native clips, **Forvo** for single words, or type it into any **US text-to-speech**. Then record yourself and compare.
 
 ## SG01. Retroflex T/D → alveolar T/D
-**The tell:** You curl your tongue tip back to the roof for T and D, giving the hard "Indian" ʈ/ɖ — the single biggest accent flag.
+**The tell:** You curl your tongue tip back to the roof for T and D, giving the hard "Indian" ʈ/ɖ — the biggest single-sound flag.
 **GenAm move:** Put your tongue tip flat on the little bump just behind your upper front teeth (the alveolar ridge). No curling back. Tap and release — light, forward, front of the mouth.
-**Say it:** /t/ /d/ at the ridge → "time, today, water, ladder"
+**Say it:** /t/ /d/ at the ridge → "time, today, ten, desk"
 **Minimal pair (20s):** Say "today" your usual way, then with the tip flat and forward — alternate 3× and feel the tongue move forward each time.
-**🔊 Model:** Search "water" on YouGlish (US) or a US text-to-speech, mimic once, then record & compare.
+**🔊 Model:** Search "today" on YouGlish (US) or a US text-to-speech, mimic once, then record & compare.
 
 ## SG02. Aspiration of P/T/K
 **The tell:** Your P/T/K at the start of stressed syllables come out "clean," with no breath — so "pin" sounds clipped, almost like "bin."

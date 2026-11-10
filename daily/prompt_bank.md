@@ -1,6 +1,6 @@
 # Prompt Bank
 
-The daily protocol's "expression activation" step needs something to answer. Pick prompts from here so you never waste time deciding what to talk about. Answer aloud in 2–4 sentences, using at least one framework, chunk, or expression you studied today.
+The daily protocol's "prompt activation" step (minutes 7–8) needs something to answer. Pick prompts from here so you never waste time deciding what to talk about. Answer aloud in 2–4 sentences, using at least one framework, chunk, or expression you studied today.
 
 Rotate through them; don't answer the same one two days in a row. Reuse a prompt every couple of weeks to feel the improvement.
 
@@ -52,7 +52,7 @@ Rotate through them; don't answer the same one two days in a row. Reuse a prompt
 ## Hypothetical & spontaneous (harder)
 
 34. If you could improve one thing about your city, what would it be?
-35. Explain how to make your favourite dish.
+35. Explain how to make your favorite dish.
 36. If a friend visited for a day, what would you show them?
 37. Describe your ideal weekend.
 38. What advice would you give your younger self?

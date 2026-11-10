@@ -61,7 +61,7 @@ Fluency lives in chunks, not single words. These are high-frequency multi-word p
 
 ## V012. fall behind
 **Means:** to be slower than you should be; to be late with work
-**Example:** I fell behind on my emails while I was on holiday.
+**Example:** I fell behind on my emails while I was on vacation.
 **Drill:** Say a true sentence about falling behind on something.
 
 ## V013. catch up on

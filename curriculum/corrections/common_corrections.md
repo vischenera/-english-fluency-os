@@ -38,7 +38,7 @@ These are the highest-frequency Malayalam/Indian-English transfer errors — the
 **Drill:** Say the wrong form once, the correct form three times, then make one new sentence.
 
 ## C008. I am working here since 2020 → I have been working here since 2020
-**Why:** An action that started in the past and continues now uses the present perfect continuous, not the simple present.
+**Why:** An action that started in the past and continues now uses the present perfect continuous, not the present continuous.
 **Examples:** I have been working here since 2020. / They have been living in Chennai since last year.
 **Drill:** Say the wrong form once, the correct form three times, then make one new sentence.
 
@@ -72,9 +72,9 @@ These are the highest-frequency Malayalam/Indian-English transfer errors — the
 **Examples:** She is married to a doctor. / He got married to his college sweetheart.
 **Drill:** Say the wrong form once, the correct form three times, then make one new sentence.
 
-## C015. different than → different from
-**Why:** In standard usage, two things are "different from" each other; "than" is for comparatives like "bigger than."
-**Examples:** This phone is different from the old one. / Her style is very different from mine.
+## C015. You're coming, isn't it? → You're coming, aren't you?
+**Why:** Using "isn't it?" as an all-purpose tag is an Indian-English habit (like Malayalam "alle?"). In standard English the tag repeats the sentence's own helper verb and subject: you're → aren't you, she can → can't she. When unsure, just add "right?"
+**Examples:** You're coming tomorrow, aren't you? / She can drive, can't she?
 **Drill:** Say the wrong form once, the correct form three times, then make one new sentence.
 
 ## C016. enter into the room → enter the room
@@ -104,7 +104,7 @@ These are the highest-frequency Malayalam/Indian-English transfer errors — the
 
 ## C021. yesterday night → last night
 **Why:** The fixed phrase is "last night," not "yesterday night."
-**Examples:** I slept badly last night. / Last night we watched a film.
+**Examples:** I slept badly last night. / Last night we watched a movie.
 **Drill:** Say the wrong form once, the correct form three times, then make one new sentence.
 
 ## C022. I have a doubt → I have a question
@@ -159,12 +159,12 @@ These are the highest-frequency Malayalam/Indian-English transfer errors — the
 
 ## C032. on next week → next week
 **Why:** Time phrases with "next," "last," "this," and "every" take no preposition.
-**Examples:** I will see you next week. / We are travelling next month.
+**Examples:** I will see you next week. / We are traveling next month.
 **Drill:** Say the wrong form once, the correct form three times, then make one new sentence.
 
 ## C033. in Monday → on Monday
 **Why:** Days of the week and dates take the preposition "on."
-**Examples:** The meeting is on Monday. / She was born on the 5th of June.
+**Examples:** The meeting is on Monday. / She was born on June 5th.
 **Drill:** Say the wrong form once, the correct form three times, then make one new sentence.
 
 ## C034. at morning → in the morning
@@ -224,7 +224,7 @@ These are the highest-frequency Malayalam/Indian-English transfer errors — the
 
 ## C045. I am staying in Kochi → I live in Kochi
 **Why:** For your permanent home, use "live"; "stay" implies a temporary visit, like at a hotel.
-**Examples:** I live in Kochi. / They live in a flat near the station.
+**Examples:** I live in Kochi. / They live in an apartment near the station.
 **Drill:** Say the wrong form once, the correct form three times, then make one new sentence.
 
 ## C046. I stay with my parents → I live with my parents
@@ -334,7 +334,7 @@ These are the highest-frequency Malayalam/Indian-English transfer errors — the
 
 ## C067. I felt very relax → I felt very relaxed
 **Why:** "Relax" is a verb; to describe a feeling you need the "-ed" adjective "relaxed."
-**Examples:** I felt very relaxed. / She looked relaxed after the holiday.
+**Examples:** I felt very relaxed. / She looked relaxed after her vacation.
 **Drill:** Say the wrong form once, the correct form three times, then make one new sentence.
 
 ## C068. I am confusing → I am confused
@@ -373,13 +373,13 @@ These are the highest-frequency Malayalam/Indian-English transfer errors — the
 **Drill:** Say the wrong form once, the correct form three times, then make one new sentence.
 
 ## C075. send me a mail → send me an email
-**Why:** Electronic messages are "email" (or "an email"); "a mail" usually means physical post.
+**Why:** "Mail" is uncountable, so "a mail" doesn't work; one electronic message is "an email."
 **Examples:** Send me an email. / I got your email this morning.
 **Drill:** Say the wrong form once, the correct form three times, then make one new sentence.
 
-## C076. take tension → feel stressed
-**Why:** "Take tension" is an Indian-English calque; native speakers say "feel stressed" or "worry."
-**Examples:** Don't feel stressed about it. / I was really stressed before the interview.
+## C076. take tension → worry / feel stressed
+**Why:** "Take tension" is an Indian-English calque; native speakers say "worry" or "feel stressed."
+**Examples:** Don't worry about it. / I was really stressed before the interview.
 **Drill:** Say the wrong form once, the correct form three times, then make one new sentence.
 
 ## C077. traffic is there → there is traffic
@@ -403,13 +403,13 @@ These are the highest-frequency Malayalam/Indian-English transfer errors — the
 **Drill:** Say the wrong form once, the correct form three times, then make one new sentence.
 
 ## C081. I am having fever → I have a fever
-**Why:** "Have" for illness is stative, so it isn't used in the continuous; illnesses also usually take an article ("a fever").
+**Why:** "Have" for illness is stative, so it isn't used in the continuous; "fever," "cold," and "headache" also take the article "a."
 **Examples:** I have a fever. / She has a bad cold.
 **Drill:** Say the wrong form once, the correct form three times, then make one new sentence.
 
-## C082. I got fever → I have a fever / I developed a fever
-**Why:** State an illness with "have a fever," or use "developed a fever" for the onset; "got fever" misses the article.
-**Examples:** I have a fever today. / He developed a fever overnight.
+## C082. I got fever → I got a fever / I came down with a fever
+**Why:** "Fever" needs the article "a." "I got a fever" is natural, and "came down with" is the usual way to say you got sick.
+**Examples:** I got a fever last night. / He came down with a fever over the weekend.
 **Drill:** Say the wrong form once, the correct form three times, then make one new sentence.
 
 ## C083. loose weight → lose weight
@@ -422,9 +422,9 @@ These are the highest-frequency Malayalam/Indian-English transfer errors — the
 **Examples:** Breathe slowly and relax. / Take a deep breath, then breathe out.
 **Drill:** Say the wrong form once, the correct form three times, then make one new sentence.
 
-## C085. I will ping you → I will message you
-**Why:** "Ping" is casual jargon; in most contexts the clearer, standard verb is "message" or "text."
-**Examples:** I will message you the details. / Text me when you arrive.
+## C085. Even I like it → I like it too
+**Why:** Malayalam "-um" means both "even" and "too," but English splits them: "even I" means "surprisingly, I" (Even I can cook that). To share a feeling or plan, put "too" at the end, or reply "Me too."
+**Examples:** I like it too. / "I'm tired." "Me too."
 **Drill:** Say the wrong form once, the correct form three times, then make one new sentence.
 
 ## C086. Please intimate me → Please let me know

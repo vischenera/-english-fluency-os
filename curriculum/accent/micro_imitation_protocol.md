@@ -1,6 +1,6 @@
 # Micro-Imitation Protocol (ADHD-First)
 
-Traditional shadowing — sitting through a TED talk and repeating it — does not survive an ADHD brain or boredom. This replaces it with 5–30 second hits riding on content you already like or sentences you actually use. No long audio, ever.
+Traditional shadowing — sitting through a TED talk and repeating it — does not survive an ADHD brain or boredom. This replaces it with short hits (20 seconds to 2 minutes) riding on content you already like or sentences you actually use. No long audio, ever.
 
 ## The 5-Mode Menu — pick ONE by mood each day
 

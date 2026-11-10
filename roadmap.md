@@ -41,7 +41,7 @@ All roadmaps assume **10 minutes per day**. If you miss a day, do not compensate
 | Clarity | 17–20 | pronunciation and stress | Easier listening comprehension for others. |
 | Autonomy | 21–24 | self-directed speaking loops | Learner can maintain fluency without course dependency. |
 
-Because the core deck is small (~300 cards), you can finish a full pass well inside each pathway and spend the remaining weeks *repeating* high-value cards — which is where fluency is actually built.
+The core deck is small (~300 cards), but at the weekly card budget a full pass takes about 18 weeks — the 90 corrections are the longest deck. On the 8- and 12-week paths, prioritize the cards you need most (the corrections you actually make, per the review loop) and spend spare time *repeating* high-value cards — which is where fluency is actually built.
 
 ## Pareto Rule For Skipping
 

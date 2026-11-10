@@ -13,19 +13,19 @@ Notation: **CAPS** = stressed/strong syllable. _uh_ = reduced to schwa. • = a 
 ## PR02. Content strong, function weak
 **The tell:** You stress small grammar words (the, of, to, is, and, can) as loudly as the real words.
 **GenAm move:** Punch only the **content** words — nouns, main verbs, adjectives, adverbs; let **function** words (articles, prepositions, pronouns, helpers) go soft and fast.
-**Notation:** _thuh_ **CAT** _is_ _on_ _thuh_ **TABLE** _in_ _thuh_ **KITCHEN**
-**Micro-game (20s):** Whisper every weak word and shout every CAPS word in the line above, twice — exaggerate the size difference.
+**Notation:** _thuh_ **CAT** _is_ _on_ _thuh_ **TA**-_bul_ _in_ _thuh_ **KIT**-_chun_
+**Micro-game (20s):** Whisper every weak word and shout every CAPS syllable in the line above, twice — exaggerate the size difference.
 
 ## PR03. Schwa: reduce to "uh"
 **The tell:** You say full clear vowels in the, a, of, to, for ("aae", "tooo", "for") instead of a lazy _uh_.
 **GenAm move:** In unstressed spots these collapse: the→_thuh_, a→_uh_, of→_uhv_, to→_tuh_, for→_fer_. The vowel goes to a neutral mumble.
-**Notation:** _uh_ **CUP** _uhv_ **TEA** _fer_ **TWO** _uhv_ **US**
+**Notation:** _uh_ **CUP** _uhv_ **TEA** _fer_ **TWO** _uhv_ _us_
 **Micro-game (20s):** Say "a cup of tea for two of us" slowly, then again replacing every small word's vowel with a relaxed _uh_ — feel your jaw barely move on them.
 
 ## PR04. Crushing "to" and "and"
 **The tell:** You keep "to" and "and" as crisp separate words, breaking the flow.
 **GenAm move:** They glue onto neighbors: want to→_wanna_, going to→_gonna_, fish and chips→_fish'n chips_, rock and roll→_rock'n roll_. (Spoken rhythm, not spelling.)
-**Notation:** _i_ **WANNA** **GO** • **FISH** _'n_ **CHIPS** • **ROCK** _'n_ **ROLL**
+**Notation:** _i_ **WAN**-_nuh_ **GO** • **FISH** _'n_ **CHIPS** • **ROCK** _'n_ **ROLL**
 **Micro-game (20s):** Say "I want to go" three times, getting faster each time until "want to" becomes one smooshed _wanna_ beat.
 
 ## PR05. Word stress: where the beat lands
@@ -37,7 +37,7 @@ Notation: **CAPS** = stressed/strong syllable. _uh_ = reduced to schwa. • = a 
 ## PR06. Stress in longer words
 **The tell:** On big words you spread the energy out, landing flat or on the wrong syllable.
 **GenAm move:** Find the one loud syllable and let the rest reduce to schwa around it.
-**Notation:** _duh_-**VEL**-_uhp_-_m…uhnt_ • im-**POR**-_tuhnt_ • **NE**-_cuh_-_sair_-y
+**Notation:** _duh_-**VEL**-_uhp_-_muhnt_ • im-**POR**-_tuhnt_ • **NES**-_uh_-sair-ee (American English keeps the full "sair")
 **Micro-game (20s):** Hum just the rhythm of each word (da-DA-da-da) first, then drop the syllables in: development, important, necessary — 2× each.
 
 ## PR07. Sentence stress: the last big word wins
@@ -67,7 +67,7 @@ Notation: **CAPS** = stressed/strong syllable. _uh_ = reduced to schwa. • = a 
 ## PR11. Yes/no questions rise
 **The tell:** You use the same falling tune for yes/no questions, so they don't sound like questions.
 **GenAm move:** Questions answerable by "yes/no" glide **up** at the end — pitch lifts on the tonic.
-**Notation:** _are_ _you_ **COMING** ↗ • _did_ _you_ _eat_ **YET** ↗
+**Notation:** _are_ _you_ **COM**-ing ↗ • _did_ _you_ _eat_ **YET** ↗
 **Micro-game (20s):** Say each line and raise your hand upward on the last word; do it once falling (wrong) then rising (right) to feel the difference.
 
 ## PR12. List & continuation rise-then-fall

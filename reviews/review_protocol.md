@@ -15,9 +15,9 @@ Keep cards in five boxes. A card moves up a box each time you can start a correc
 | 5 | "warm" — once a month | owned; just keep it alive |
 
 Rules:
-- A card is **graduated** only after 3 instant, correct retrievals in a row.
+- A card **graduates** to Box 5 only after 4 instant, correct retrievals in a row (one box per success).
 - Only ~5–8 cards should be in Box 1 at a time. Don't add new cards while Box 1 is full.
-- Recognition does not count. If you can only *recognise* it, it stays in Box 1.
+- Recognition does not count. If you can only *recognize* it, it stays in Box 1.
 
 A simple paper version: five columns; move a tally mark right on success, back to column 1 on a miss.
 

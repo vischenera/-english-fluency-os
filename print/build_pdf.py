@@ -14,6 +14,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import html
+import os
 import re
 import subprocess
 from dataclasses import dataclass, field
@@ -134,22 +135,50 @@ def split_segments(text: str):
         yield "md", "\n".join(buf)
 
 
-def hoisted_fields(entries: list[Entry]) -> dict[str, str]:
-    """Fields with the same value on every entry are printed once, above the entries."""
+@dataclass
+class Shared:
+    """A field repeated across a whole deck, printed once above its entries."""
+    note: str
+    short: dict[str, str] = field(default_factory=dict)  # per-entry remainder; empty = drop the field
+
+
+def shared_fields(entries: list[Entry]) -> dict[str, Shared]:
+    """Find fields every entry repeats.
+
+    Identical values are dropped from the entries. Values that differ only in a
+    short middle (like the word to search for) keep just that middle per entry.
+    """
     if len(entries) < 2:
         return {}
-    common = dict(entries[0].fields)
-    for e in entries[1:]:
-        values = dict(e.fields)
-        common = {k: v for k, v in common.items() if values.get(k) == v}
-    return common
+    shared = {}
+    for label, _ in entries[0].fields:
+        values = [dict(e.fields).get(label) for e in entries]
+        if None in values:
+            continue
+        if len(set(values)) == 1:
+            shared[label] = Shared(values[0])
+            continue
+        prefix = os.path.commonprefix(values)
+        suffix = os.path.commonprefix([v[::-1] for v in values])[::-1]
+        prefix = prefix[:max(prefix.rfind(" "), prefix.rfind('"')) + 1]  # cut back to a word edge
+        cuts = [i for i in (suffix.find(" "), suffix.find('"')) if i >= 0]
+        suffix = suffix[min(cuts):] if cuts else ""
+        middles = [v[len(prefix):len(v) - len(suffix)] for v in values]
+        if len(prefix) + len(suffix) < 40 or not all(0 < len(m) <= 20 for m in middles):
+            continue
+        quote_l, quote_r = prefix[-1:] == '"', suffix[:1] == '"'
+        prefix, suffix = prefix[:len(prefix) - quote_l], suffix[quote_r:]
+        wrap = ('"' if quote_l else "", '"' if quote_r else "")
+        shared[label] = Shared(f"{prefix}{wrap[0]}…{wrap[1]}{suffix}",
+                               {e.id: f"{wrap[0]}{m}{wrap[1]}" for e, m in zip(entries, middles)})
+    return shared
 
 
 def label_text(label: str) -> str:
     return EMOJI_RE.sub("", label).strip()
 
 
-def render_entry(e: Entry, hoisted: dict[str, str]) -> str:
+def render_entry(e: Entry, shared: dict[str, Shared]) -> str:
     style = DECKS[e.deck]
     if style.get("correction") and " → " in e.title:
         wrong, right = e.title.split(" → ", 1)
@@ -159,8 +188,10 @@ def render_entry(e: Entry, hoisted: dict[str, str]) -> str:
         title = inline(e.title)
     meta, body = "", []
     for label, value in e.fields:
-        if label in hoisted:
-            continue
+        if label in shared:
+            if not shared[label].short:
+                continue
+            value = shared[label].short[e.id]
         if label == style.get("meta"):
             tag = value.split(" · ")[0].strip()
             formality = re.search(r"\*\*Formality:\*\*\s*(.+)$", value)
@@ -177,13 +208,13 @@ def render_entry(e: Entry, hoisted: dict[str, str]) -> str:
             f'<p class="entry-title">{title}{meta}</p>{"".join(body)}</div>')
 
 
-def render_hoisted(hoisted: dict[str, str], intro: str = "") -> str:
+def render_shared(shared: dict[str, Shared], intro: str = "") -> str:
     """Print each shared field once, unless the module intro already says it."""
     def norm(text: str) -> str:
         return re.sub(r"[^a-z0-9]+", " ", text.lower()).strip()
     return "".join(
-        f'<p class="hoisted"><span class="label">{esc(label_text(k))} for every entry:</span> {inline(v)}</p>'
-        for k, v in hoisted.items() if norm(v)[:40] not in norm(intro))
+        f'<p class="hoisted"><span class="label">{esc(label_text(k))} for every entry:</span> {inline(s.note)}</p>'
+        for k, s in shared.items() if norm(s.note)[:40] not in norm(intro))
 
 
 def render_module_body(module: Module) -> tuple[str, list[str]]:
@@ -193,20 +224,20 @@ def render_module_body(module: Module) -> tuple[str, list[str]]:
         text = drop_section(text, "Repository Map")  # the contents page replaces it
     segments = list(split_segments(text))
     entries = [s for kind, s in segments if kind == "entry"]
-    hoisted = hoisted_fields(entries)
-    out, intro_done = [], not hoisted
+    shared = shared_fields(entries)
+    out, intro_done = [], not shared
     for kind, seg in segments:
         if kind == "entry":
             if not intro_done:
-                out.append(render_hoisted(hoisted))
+                out.append(render_shared(shared))
                 intro_done = True
-            out.append(render_entry(seg, hoisted))
+            out.append(render_entry(seg, shared))
             continue
         if not intro_done:
             # Put the "for every entry" note at the end of the intro, before the first group heading.
             head, sep, rest = seg.partition("\n## ")
             out.append(md.render(head))
-            out.append(render_hoisted(hoisted, head))
+            out.append(render_shared(shared, head))
             intro_done = True
             seg = ("## " + rest) if sep else ""
         out.append(md.render(seg))

@@ -61,6 +61,7 @@ PARTS = [
         Module("Prosody", "curriculum/accent/01_prosody.md", "prosody"),
         Module("Segmental Tells", "curriculum/accent/02_segmental_tells.md", "segmental-tells"),
         Module("Connected Speech", "curriculum/accent/03_connected_speech.md", "connected-speech"),
+        Module("Core Word List", "curriculum/accent/04_core_word_list.md", "core-word-list"),
         Module("Micro-Imitation Protocol", "curriculum/accent/micro_imitation_protocol.md", "micro-imitation"),
     ]),
     ("Part IV", "Trackers", [

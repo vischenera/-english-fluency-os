@@ -10,6 +10,8 @@
 2. **The segmental tells** (`02_segmental_tells.md`) — the ~10 individual sounds that most flag a Malayalam/Indian accent (retroflex t/d, aspiration, v/w, th, rhotic r, diphthongs…).
 3. **Connected speech** (`03_connected_speech.md`) — blending words so you sound smooth, not word-by-word (flap-T, gonna/wanna, linking).
 
+Drill all three on the **core word list** (`04_core_word_list.md`): the most frequent words that carry each tell, so practice lands on the words you say most.
+
 Plus: the **fluency layer** (chunks, islands, bridges) is the *other half* of sounding native — a slight accent with native rhythm and phrasing reads as far more native than perfect sounds delivered haltingly.
 
 ## How audio works (no files, no long clips)

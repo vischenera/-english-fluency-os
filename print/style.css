@@ -67,6 +67,7 @@ h2 {
   break-after: avoid;
 }
 .entry + h2 { margin-top: 4mm; }
+h2 + p { break-after: avoid; }  /* keep a section's intro line with its list or table */
 h3 {
   font-size: 10.3pt;
   font-weight: 700;

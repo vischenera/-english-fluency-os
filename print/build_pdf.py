@@ -2,7 +2,7 @@
 """Build the printable A4 workbook from the Markdown sources.
 
     pip install -r print/requirements.txt
-    python print/build_pdf.py              # writes print/English-Fluency-OS-A4.pdf
+    python print/build_pdf.py              # writes print/English.pdf
     python print/build_pdf.py --html x.html  # also keeps the intermediate HTML
 
 The workbook is laid out as modules (chapters), not cards: each module starts
@@ -25,7 +25,9 @@ from weasyprint import HTML
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
-DEFAULT_OUT = HERE / "English-Fluency-OS-A4.pdf"
+# The printed book is personal: it carries a plain title and no "who it is for" description.
+TITLE = "English"
+DEFAULT_OUT = HERE / "English.pdf"
 
 
 @dataclass
@@ -221,6 +223,7 @@ def render_module_body(module: Module) -> tuple[str, list[str]]:
     """Return the module's HTML and the IDs of its entries."""
     text = strip_h1((ROOT / module.source).read_text(encoding="utf-8"))
     if module.source == "README.md":
+        text = text.split("\n\n", 1)[1]  # skip the "who it is for" line, like the cover
         text = drop_section(text, "Repository Map")  # the contents page replaces it
     segments = list(split_segments(text))
     entries = [s for kind, s in segments if kind == "entry"]
@@ -329,14 +332,11 @@ def build_html() -> str:
     css = (HERE / "style.css").read_text(encoding="utf-8")
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
-<title>English Fluency OS</title>
+<title>{TITLE}</title>
 <style>{css}</style></head>
 <body>
 <section class="cover">
-  <p class="cover-kicker">Printable workbook · A4</p>
-  <h1 class="cover-title">English Fluency OS</h1>
-  <p class="cover-sub">A 10-minute-a-day speaking system for a Malayalam-speaking learner who already
-  understands English, with a General American accent track.</p>
+  <h1 class="cover-title">{TITLE}</h1>
   <p class="cover-date">{esc(edition_date())}</p>
 </section>
 <section class="toc">

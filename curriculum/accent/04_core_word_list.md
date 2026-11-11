@@ -1,6 +1,27 @@
 # Accent Track 4 — Core Word List
 
-Your accent is judged on the words you say most, so this is the minimum set to drill: for each accent tell, the most frequent everyday and work words that carry it, most common first. Fix a sound in these words and it disappears from most of your speech. "The," for example, is the most common word in English, so the TH row alone changes almost every sentence you say.
+The minimum set of words to drill each accent sound on, picked from data: for each sound, the 8 words in which you say it most often in everyday English. **Covers** is the share of that sound, across everything you say, that those 8 words account for.
+
+## The sound tells
+
+| Tell | Words (most common first) | Covers | Say it in a chunk | Card |
+|---|---|---:|---|---|
+| TH /ð/ (voiced) | the, that, with, this, they, their, there, them | 88% | "is that the one?" | SG05 |
+| TH /θ/ (breath) | think, through, something, both, three, things, thing, without | 37% | "I think something's wrong" | SG04 |
+| V (teeth on lip) | of, have, over, very, even, never, love, every | 51% | "I've never been very good at it" | SG03 |
+| W (round lips) | with, was, we, one, will, what, when, were | 44% | "what were we doing?" | SG03 |
+| T/D at the ridge | to, do, time, don't, after, into, two, did | 26% | "I don't have time to do it" | SG01 |
+| Flap T | better, little, city, getting, already, including, water, later | 8% | "it's getting a little better" | CS03 |
+| P/T/K with a puff | time, people, two, because, take, can't, come, part | 6% | "take your time" | SG02 |
+| R (not rolled or dropped) | for, are, from, or, your, more, were, their | 14% | "more or less" | SG06 |
+| Gliding vowels | so, no, don't, also, only, know, make, over | 13% | "I don't know" | SG07 |
+| TRAP /æ/ | that, have, has, had, after, back, last, having | 37% | "I had that last time" | SG08 |
+| Dark L | all, will, people, also, well, still, world, while | 20% | "all the people as well" | SG09 |
+| Clean final consonants | and, just, it's, don't, first, think, want, most | 24% | "I just want the first one" | SG10 |
+
+"After" and "last" take the flat TRAP vowel in American English, not a long "ah": one of the quickest ways to sound American.
+
+Coverage is measured with English word frequencies (wordfreq) and American pronunciations (CMU Pronouncing Dictionary).
 
 ## How to use it (60 seconds)
 
@@ -11,24 +32,13 @@ Your accent is judged on the words you say most, so this is the minimum set to d
 
 One row a day is enough. Repeat rows freely; these are the words that matter.
 
-## The sound tells
+## Why not 80%?
 
-| Tell | Words (most common first) | Say it in a chunk | Card |
-|---|---|---|---|
-| TH /ð/ (voiced) | the, that, this, they, there, with, them, then | "that's the thing" | SG05 |
-| TH /θ/ (breath) | think, thing, thanks, something, nothing, through, both, month | "thanks, I think so" | SG04 |
-| V (teeth on lip) | have, very, of, every, even, give, over, value | "very good value" | SG03 |
-| W (round lips) | we, was, what, would, will, work, want, one | "what would you want?" | SG03 |
-| T/D at the ridge | time, today, take, tell, team, do, day, don't | "talk to the team today" | SG01 |
-| Flap T | better, little, pretty, getting, meeting, city, matter, a lot of | "it's getting a little better" | CS03 |
-| P/T/K with a puff | people, problem, project, put, come, call, keep, company | "keep people posted" | SG02 |
-| R kept after vowels | work, first, more, year, our, here, really, morning | "first thing in the morning" | SG06 |
-| Gliding vowels | day, say, make, same, great, go, know, so, okay, only | "okay, same day" | SG07 |
-| TRAP /æ/ | have, that, back, after, ask, last, actually, happy | "actually, I asked last time" | SG08 |
-| Dark L | I'll, will, all, well, call, still, feel, people | "I'll call all of them" | SG09 |
-| Clean final consonants | it, but, not, and, just, first, next, asked | "I just asked first" | SG10 |
+A few sounds live in a handful of words: 8 words cover 88% of the voiced TH ("the, that, this…"). Most sounds are spread across the whole language: covering 80% of every R you say would take about 2,200 different words, and 80% of all twelve sounds together over 3,000, which is nearly every word you know. So the 80% doesn't come from a list; it comes from the mouth habit. Build the habit on these rows, the words you say most, and once it's automatic it carries to every other word with that sound.
 
-"Ask," "after," and "last" take the flat TRAP vowel in American English, not a long "ah": one of the quickest ways to sound American.
+Returns also flatten fast, which is why rows stop at 8 words: on average, 5 words per sound cover 26%, 8 cover 31% (this list, 81 words), 20 cover 40%, and 50 only 49%.
+
+The next three lists are different: common words that are often said wrong.
 
 ## Word stress
 

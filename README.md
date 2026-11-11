@@ -34,6 +34,7 @@ It also targets a **minimally-marked General American accent** — the point whe
 - `reviews/review_protocol.md` — spaced repetition (Leitner), recording loop, and AI feedback loop.
 - `tracking/progress_tracker.md` — printable / copyable tracker.
 - `print/` — the printable A4 workbook (`English.pdf`) and the script that builds it.
+- `tools/word_list_coverage.py` — picks the core accent word list from word-frequency data and measures what it covers.
 
 ## The 10-Minute Daily Loop
 

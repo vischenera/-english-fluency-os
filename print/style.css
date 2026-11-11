@@ -219,5 +219,9 @@ table.form-islands th:nth-child(2) { width: 16%; }
 table.form-islands th:nth-child(3) { width: 15%; }
 table.form-islands th:nth-child(4) { width: 44%; }
 
+.side-by-side { display: flex; gap: 8mm; align-items: flex-start; break-inside: avoid; }
+.side-by-side .cell { flex: 1 1 0; }
+.side-by-side table { width: 100%; }
+
 ul.lines { list-style: none; padding: 0; }
 ul.lines li { margin: 0; padding: 5.5mm 0 1mm; border-bottom: 0.5pt solid #9aa3ad; }

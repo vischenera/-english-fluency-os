@@ -287,7 +287,23 @@ def decorate_forms(module: Module, body: str) -> str:
         body = re.sub(r"(<h2>Weekly Summary</h2>\s*)<ul>", r'\1<ul class="lines">', body)
     if module.slug == "islands":
         body = body.replace("<table>", '<table class="form form-islands">', 1)
+    if module.slug in SIDE_BY_SIDE:
+        body = side_by_side(body, SIDE_BY_SIDE[module.slug])
     return body
+
+
+# Short reference tables that print side by side instead of one under the other.
+SIDE_BY_SIDE = {"core-word-list": "Say these the American way"}
+
+
+def side_by_side(body: str, first_heading: str) -> str:
+    """Lay the sections from `first_heading` to the end of the module out in one row."""
+    start = body.find(f"<h2>{first_heading}</h2>")
+    if start < 0:
+        return body
+    sections = re.split(r"(?=<h2>)", body[start:])
+    cells = "".join(f'<div class="cell">{s}</div>' for s in sections if s.strip())
+    return f'{body[:start]}<div class="side-by-side">{cells}</div>'
 
 
 def edition_date() -> str:

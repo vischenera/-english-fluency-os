@@ -118,8 +118,26 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--per-row", type=int, default=8, help="words per sound (default 8)")
     ap.add_argument("--curve", action="store_true", help="show coverage for several list sizes")
+    ap.add_argument("--top", type=int, metavar="N",
+                    help="the N words that remove the most accent slips, all sounds together")
     args = ap.parse_args()
     weights = sound_weights()
+    for s, skip in SKIP.items():  # a skipped word carries no slip for that sound
+        for w in skip:
+            weights[s].pop(w, None)
+    if args.top:
+        slips = {}
+        for ws in weights.values():
+            for w, v in ws.items():
+                slips[w] = slips.get(w, 0.0) + v
+        best = sorted(slips, key=slips.get, reverse=True)[:args.top]
+        share = {s: sum(ws.values()) for s, ws in weights.items()}
+        total = sum(share.values())
+        print(f"Top {args.top} words remove {sum(slips[w] for w in best) / total * 100:.1f}% of all accent slips:")
+        print(", ".join(best))
+        print("\nShare of all slips by sound:",
+              ", ".join(f"{SOUNDS[s][0]} {v / total * 100:.0f}%" for s, v in sorted(share.items(), key=lambda kv: -kv[1])))
+        return
     if args.curve:
         print("words/row  distinct words  average share of each sound covered")
         for k in (5, 8, 10, 15, 20, 30, 50):

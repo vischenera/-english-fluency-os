@@ -99,6 +99,7 @@ th, td {
   text-align: left;
 }
 th { background: var(--tint); font-weight: 700; }
+.module-core-word-list th, .module-core-word-list td { padding-top: 0.75mm; padding-bottom: 0.75mm; }  /* reference tables: keep the module to two pages */
 
 /* ---------- Cover ---------- */
 

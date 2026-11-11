@@ -1,6 +1,6 @@
 # Micro-Imitation Protocol (ADHD-First)
 
-Traditional shadowing — sitting through a TED talk and repeating it — does not survive an ADHD brain or boredom. This replaces it with 5–30 second hits riding on content you already like or sentences you actually use. No long audio, ever.
+Traditional shadowing — sitting through a TED talk and repeating it — does not survive an ADHD brain or boredom. This replaces it with short hits (20 seconds to 2 minutes) riding on content you already like or sentences you actually use. No long audio, ever.
 
 ## The 5-Mode Menu — pick ONE by mood each day
 
@@ -9,7 +9,7 @@ You don't follow a fixed routine. Each day, glance at the menu and pick whatever
 | Mode | What you do | Time | Needs |
 |---|---|---|---|
 | 1. Stress-tap | Take any sentence, tap the strong beats while you say it (prosody cards) | 20s | nothing |
-| 2. Minimal pair | One segmental card — say the contrast pair, feel the mouth | 30s | nothing |
+| 2. Minimal pair | One segmental card — say the contrast pair, then its row in the core word list | 30s | nothing |
 | 3. Echo-a-show | Pause something you're watching, repeat the last line in their voice | 30s | a show you like |
 | 4. TTS-your-line | Type a sentence YOU want to say into US text-to-speech, mimic it 3× | 1 min | phone/browser |
 | 5. Record-compare | Record one sentence, play a model (YouGlish/TTS), fix one thing, re-record | 2 min | phone |

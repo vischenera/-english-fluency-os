@@ -1,0 +1,227 @@
+/* Print stylesheet for the A4 workbook (WeasyPrint). */
+
+:root {
+  --ink: #1b1f24;
+  --muted: #59616c;
+  --accent: #1f4e79;
+  --rule: #c5cbd3;
+  --tint: #f1f3f6;
+}
+
+@page {
+  size: A4;
+  margin: 20mm 18mm 17mm 18mm;
+  @top-left {
+    content: "English";
+    font: 500 7.5pt "Inter", "DejaVu Sans", sans-serif;
+    color: var(--muted);
+    vertical-align: bottom;
+    padding-bottom: 4mm;
+  }
+  @top-right {
+    content: string(module);
+    font: 500 7.5pt "Inter", "DejaVu Sans", sans-serif;
+    color: var(--muted);
+    vertical-align: bottom;
+    padding-bottom: 4mm;
+  }
+  @bottom-center {
+    content: counter(page);
+    font: 600 8pt "Inter", "DejaVu Sans", sans-serif;
+    color: var(--muted);
+    vertical-align: top;
+    padding-top: 5mm;
+  }
+}
+
+@page :first {
+  @top-left { content: none; }
+  @top-right { content: none; }
+  @bottom-center { content: none; }
+}
+
+html {
+  font-family: "Inter", "Carlito", "DejaVu Sans", "Segoe UI", Arial, sans-serif;
+  font-size: 9.4pt;
+  line-height: 1.36;
+  color: var(--ink);
+}
+
+body { margin: 0; }
+p { margin: 0 0 2.2mm; orphans: 2; widows: 2; }
+strong { font-weight: 700; }
+a { color: inherit; text-decoration: none; }
+code { font-family: inherit; font-style: italic; }
+h1, h2, h3, h4 { bookmark-level: none; }
+
+ul, ol { margin: 0 0 2.6mm; padding-left: 5.5mm; break-inside: avoid; }
+ol { padding-left: 7mm; }
+li { margin: 0 0 0.8mm; }
+li > p { margin: 0; }
+
+h2 {
+  font-size: 11.5pt;
+  font-weight: 700;
+  color: var(--accent);
+  margin: 5.5mm 0 2mm;
+  break-after: avoid;
+}
+.entry + h2 { margin-top: 4mm; }
+h2 + p { break-after: avoid; }  /* keep a section's intro line with its list or table */
+h3 {
+  font-size: 10.3pt;
+  font-weight: 700;
+  margin: 4mm 0 1.2mm;
+  break-after: avoid;
+}
+
+blockquote {
+  margin: 0 0 3mm;
+  padding: 0.5mm 0 0.5mm 4mm;
+  border-left: 2pt solid var(--rule);
+  color: var(--muted);
+}
+blockquote p { margin: 0; }
+
+table {
+  border-collapse: collapse;
+  min-width: 55%;
+  margin: 1mm 0 4mm;
+  font-size: 8.8pt;
+  line-height: 1.3;
+  break-inside: avoid;
+}
+th, td {
+  box-sizing: border-box;
+  border: 0.5pt solid var(--rule);
+  padding: 1.05mm 2.4mm;
+  vertical-align: top;
+  text-align: left;
+}
+th { background: var(--tint); font-weight: 700; }
+.module-core-word-list th, .module-core-word-list td { padding-top: 0.75mm; padding-bottom: 0.75mm; }  /* reference tables: keep the module to two pages */
+
+/* ---------- Cover ---------- */
+
+section.cover { padding-top: 70mm; }
+.cover-title {
+  font-size: 54pt;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  margin: 0;
+  padding-bottom: 8mm;
+  border-bottom: 2pt solid var(--ink);
+}
+.cover-date { margin-top: 140mm; font-size: 9pt; font-weight: 600; color: var(--muted); }
+
+/* ---------- Contents ---------- */
+
+section.toc { break-before: page; }
+.toc-title, h1.module-title {
+  font-size: 21pt;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  margin: 0 0 5mm;
+  padding-bottom: 2.5mm;
+  border-bottom: 1.2pt solid var(--ink);
+  string-set: module attr(data-running);
+}
+.toc-title { bookmark-level: 1; bookmark-label: "Contents"; }
+.toc-part, .eyebrow {
+  font-size: 7.6pt;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.toc-part { margin: 6mm 0 1.5mm; }
+.toc-list { list-style: none; padding: 0; margin: 0; }
+.toc-list li { margin: 0; padding: 1.3mm 0; border-bottom: 0.4pt solid var(--tint); font-size: 10.2pt; }
+.toc-list a { display: block; }
+.toc-list a::after {
+  content: leader(".") target-counter(attr(href), page);
+  color: var(--muted);
+}
+.toc-num { display: inline-block; width: 8mm; font-weight: 700; color: var(--accent); }
+.toc-range { font-size: 8pt; color: var(--muted); margin-left: 2mm; }
+
+/* ---------- Modules ---------- */
+
+section.module { break-before: page; }
+.eyebrow { margin: 0 0 1.5mm; }
+.eyebrow.part-start { bookmark-level: 1; bookmark-label: attr(data-part); }
+h1.module-title { bookmark-level: 2; bookmark-label: attr(data-running); }
+
+/* Page references that replace file paths. */
+a.xref::after { content: " (p. " target-counter(attr(href), page) ")"; }
+a.xref-see::after { content: ", p. " target-counter(attr(href), page); }
+a.xref-page::after { content: "p. " target-counter(attr(href), page); }
+
+/* ---------- Deck entries (numbered items, never split) ---------- */
+
+.entry {
+  position: relative;
+  padding-left: 14.5mm;
+  margin: 0 0 2.9mm;
+  break-inside: avoid;
+}
+.entry-id {
+  position: absolute;
+  left: 0;
+  top: 0.45mm;
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: var(--accent);
+}
+.entry-title { font-size: 10.4pt; font-weight: 700; line-height: 1.3; margin: 0 0 0.5mm; }
+.entry-title .meta {
+  font-size: 7.2pt;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-left: 2.5mm;
+}
+.entry .wrong { font-weight: 500; color: var(--muted); text-decoration: line-through; }
+.entry .arrow { font-weight: 500; color: var(--muted); }
+.entry .gloss { color: var(--muted); margin: 0 0 0.5mm; }
+.entry ul.examples { margin: 0 0 0.5mm; padding-left: 4.2mm; }
+.entry ul.examples li { margin: 0 0 0.3mm; }
+.entry .field { margin: 0 0 0.35mm; }
+.label { font-weight: 700; color: var(--accent); margin-right: 1.2mm; }
+.hoisted {
+  margin: 0 0 4.5mm;
+  padding: 2mm 3mm;
+  background: var(--tint);
+  border-left: 2pt solid var(--accent);
+}
+
+/* ---------- Trackers and checklists ---------- */
+
+li.task { list-style: none; margin-left: -4mm; }
+li.task .box { font-family: "DejaVu Sans", sans-serif; margin-right: 1.5mm; }
+
+table.form { table-layout: fixed; width: 100%; font-size: 8.6pt; }
+table.form td { height: 10.5mm; }
+table.form-week th:nth-child(1) { width: 7%; }
+table.form-week th:nth-child(2) { width: 9%; }
+table.form-week th:nth-child(3) { width: 19%; }
+table.form-week th:nth-child(4),
+table.form-week th:nth-child(5),
+table.form-week th:nth-child(6),
+table.form-week th:nth-child(7) { width: 11%; }
+table.form-week th:nth-child(8) { width: 21%; }
+table.form-islands th:nth-child(1) { width: 25%; }
+table.form-islands th:nth-child(2) { width: 16%; }
+table.form-islands th:nth-child(3) { width: 15%; }
+table.form-islands th:nth-child(4) { width: 44%; }
+
+.side-by-side { display: flex; gap: 8mm; align-items: flex-start; break-inside: avoid; }
+.side-by-side .cell { flex: 1 1 0; }
+.side-by-side table { width: 100%; }
+
+ul.lines { list-style: none; padding: 0; }
+ul.lines li { margin: 0; padding: 5.5mm 0 1mm; border-bottom: 0.5pt solid #9aa3ad; }

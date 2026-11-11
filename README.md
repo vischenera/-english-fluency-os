@@ -26,13 +26,15 @@ It also targets a **minimally-marked General American accent** — the point whe
 - `curriculum/vocabulary/strategic_vocabulary.md` — ~78 high-frequency chunks & collocations.
 - `curriculum/expressions/expression_library.md` — ~80 ready-to-speak expressions, including time-buying "bridges".
 - `curriculum/corrections/common_corrections.md` — 90 Malayalam/Indian-English transfer corrections, each with the real rule.
-- `curriculum/accent/` — General American accent track: `00_overview.md`, `01_prosody.md` (rhythm/stress), `02_segmental_tells.md` (the key sounds), `03_connected_speech.md` (blending), and `micro_imitation_protocol.md` (the ADHD 5-mode menu).
+- `curriculum/accent/` — General American accent track: `00_overview.md`, `01_prosody.md` (rhythm/stress), `02_segmental_tells.md` (the key sounds), `03_connected_speech.md` (blending), `04_core_word_list.md` (the minimum high-impact word set), and `micro_imitation_protocol.md` (the ADHD 5-mode menu).
 - `curriculum/islands/conversation_islands.md` — 6 reusable 60-second personal monologues.
 - `daily/10_minute_protocol.md` — exact daily routine.
 - `daily/prompt_bank.md` — 40 speaking prompts for the daily loop.
 - `weekly/weekly_sprints.md` — weekly targets and review rhythm.
 - `reviews/review_protocol.md` — spaced repetition (Leitner), recording loop, and AI feedback loop.
 - `tracking/progress_tracker.md` — printable / copyable tracker.
+- `print/` — the printable A4 workbook (`English.pdf`) and the script that builds it.
+- `tools/word_list_coverage.py` — picks the core accent word list from word-frequency data and measures what it covers.
 
 ## The 10-Minute Daily Loop
 
